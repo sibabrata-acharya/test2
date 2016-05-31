@@ -1,0 +1,26 @@
+!!! 5
+html
+    head
+        title= title
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        link(href='/css/bootstrap.min.css', rel='stylesheet', media='screen')
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js')
+        script(src='http://code.jquery.com/jquery.js')
+        script(src='js/bootstrap.min.js')
+    body
+        div
+            #providers.container
+                h1 OAuth Social Authentication.
+                    p.lead Please login with the following provider options.
+                if config.facebook
+                    a(href='/auth/facebook') Login via Facebook
+                br
+                if config.twitter
+                    a(href='/auth/twitter') Login via Twitter
+                br
+                if config.google
+                    a(href='/auth/google') Login via Google
+                br
+                if config.linkedin
+                    a(href='/auth/linkedin') Login via LinkedIn
+                                                              
