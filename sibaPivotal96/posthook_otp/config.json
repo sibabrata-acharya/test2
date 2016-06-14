@@ -1,0 +1,22 @@
+{
+    "channel": "TWILIO/SENDGRID",
+    "otp": {
+        "otpLength": "USER PROVIDED LENGTH",
+        "otpType": "USER PROVIDED TYPE",
+        "otpExpiryTime":  "USER PROVIDED TIME"
+    },
+    "sendgrid": {
+        "accountSID": "YOUR SENDGRID ACCOUNT SID",
+        "authToken": "YOUR SENDGRID AUTH TOKEN",
+        "toRecipient": "USER PROVIDED RECIPIENTS",
+        "fromMail": "USER PROVIDED SENDER"
+    },
+    "twilio": {
+        "accountSID": "YOUR TWILIO ACCOUNT SID",
+        "authToken": "YOUR TWILIO AUTH TOKEN",
+        "toRecipient": "USER PROVIDED RECIPIENT",
+        "fromNo": "USER PROVIDED SENDER FROM TWILIO"
+    }
+
+
+}
