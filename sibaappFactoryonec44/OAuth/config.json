@@ -1,0 +1,22 @@
+{
+  "facebook": {
+    "clientID": "YOUR_FACEBOOK_CLIENTID",
+    "clientSecret": "YOUR_FACEBOOK_CLIENTSECRET",
+    "callbackURL": "YOUR_DOMAIN_URL/login/facebook/return"
+  },
+  "google": {
+    "clientID": "YOUR_GOOGLE_CLIENTID",
+    "clientSecret": "YOUR_GOOGLE_CLIENTSECRET",
+    "callbackURL": "YOUR_DOMAIN_URL/auth/google/callback"
+  },
+  "twitter": {
+    "clientID": "YOUR_TWITTER_CONSUMERKEY",
+    "clientSecret": "YOUR_TWITTER_CONSUMERSECRET",
+    "callbackURL": "YOUR_DOMAIN_URL/auth/twitter/callback"
+  },
+  "linkedin": {
+    "clientID": "YOUR_LINKEDIN_CLIENTID",
+    "clientSecret": "YOUR_LINKEDIN_CLIENTSECRET",
+    "callbackURL": "YOUR_DOMAIN_URL/auth/linkedin/callback"
+  }
+}
