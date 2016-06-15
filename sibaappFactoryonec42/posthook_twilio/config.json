@@ -1,0 +1,11 @@
+{
+
+    "twilio": {
+        "accountSID": "AC728b20a72ea48a175a0cf47d11a6aa56",
+        "authToken": "1c84da28903505f762c727fe1bd65700",
+        "toRecipient": "+919539168770",
+        "from": "+17758354685"
+    }
+
+
+}
