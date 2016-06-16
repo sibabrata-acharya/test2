@@ -1,0 +1,30 @@
+{
+  "twilio": {
+    "channel": "twilio",
+    "otp": {
+      "otpLength": 5,
+      "otpType": "alphanumeric",
+      "otpExpiryTime": 4
+    },
+    "twilio":{
+      "accountSID": "",
+      "authToken": "",
+      "toRecipient": "",
+      "fromNo": ""
+    }
+  },
+  "sendgrid": {
+    "channel": "twilio",
+    "otp": {
+      "otpLength": 7,
+      "otpType": "numeric",
+      "otpExpiryTime": 6
+    },
+    "sendgrid": {
+      "accountSID": "",
+      "authToken": "",
+      "toRecipient": "",
+      "fromMail": ""
+    }
+  }
+}
